@@ -7,6 +7,15 @@
 /* common shared style */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0px;
 }
 
 /* common color */
@@ -20,10 +29,10 @@ body {
     border-radius: 5px;
     background: #FD6E0A;
     color: #fff;
-    font-size: 20px; 
-    font-weight: 700; 
+    font-size: 20px;
+    font-weight: 700;
     padding: 18px 35px;
-    
+
 }
 
 /* nav related style */
@@ -31,6 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 0px 200px 150px;
 }
 
 .nav-title {
@@ -54,4 +64,107 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+.header-frist {
+    background: #FFF8F3;
+    background-image: url('../imges/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-contant {
+    max-width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+
+/* about section style */
+.about {
+    margin-top: 50px;
+    padding: 130px 0px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+
+.section-discripstion {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about-info-container {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* skill related style */
+.pwhat-i-do-description {
+    padding: 30px 150px;
+}
+
+.skill-contener {
+    display: flex;
+    gap: 25px;
+}
+
+.skill {
+    color: #181818;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.skill-description {
+    width: 201px;
+    color: #757575;
+    font-size: 16px;
+    padding: 30px 30px;
+    text-align: start;
 }
